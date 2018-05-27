@@ -1,0 +1,8 @@
+{
+  "name": "piso-ocio-1",
+  "app_id": "41412b13",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
