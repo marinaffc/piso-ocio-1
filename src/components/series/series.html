@@ -1,0 +1,35 @@
+<!-- Generated template for the SeriesComponent component -->
+<ion-header>
+    <ion-navbar>
+      <ion-title>
+        Series
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        Serie
+      </ion-col>
+      <ion-col>
+        Temporada
+      </ion-col>
+      <ion-col>
+        Episodio
+      </ion-col>
+    </ion-row>
+    <ion-row *ngFor="let series of seriesList">
+      <ion-col>
+        {{series.name}}
+      </ion-col>
+      <ion-col>
+          {{series.season}}
+        </ion-col>
+        <ion-col>
+            {{series.episode}}
+          </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
